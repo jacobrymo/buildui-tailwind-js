@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google';
 import localfont from 'next/font/local';
-import './globals.css';
+import '../app/globals.css';
 import Link from 'next/link';
 
 const inter = Inter({
@@ -21,22 +21,24 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.variable} ${ginto.variable} flex text-gray-100 h-screen`}
-      >
-        <div className="flex flex-col gap-2 bg-gray-900 p-3 overflow-y-scroll">
-          <div className="bg-gray-700 text-gray-100 w-12 h-12 shrink-0 flex items-center justify-center rounded-3xl hover:bg-brand hover:text-white hover:rounded-2xl transition-all ease-out">
-            <DiscordLogo className="w-7" />
+      <body className={`${inter.variable} ${ginto.variable}`}>
+        <div className="flex text-gray-100 h-screen">
+          <div className="flex flex-col gap-2 bg-gray-900 p-3 overflow-y-scroll">
+            <Link
+              href="/"
+              className="bg-gray-700 text-gray-100 w-12 h-12 shrink-0 flex items-center justify-center rounded-3xl hover:bg-brand hover:text-white hover:rounded-2xl transition-all ease-out"
+            >
+              <DiscordLogo className="w-7" />
+            </Link>
+            <Link
+              href={`servers/1`}
+              className="bg-gray-700 text-gray-100 w-12 h-12 flex items-center justify-center rounded-3xl hover:bg-brand hover:text-white hover:rounded-2xl transition-all ease-out"
+            >
+              S1
+            </Link>
           </div>
-
-          <Link
-            href={`servers/1`}
-            className="bg-gray-700 text-gray-100 w-12 h-12 flex items-center justify-center rounded-3xl hover:bg-brand hover:text-white hover:rounded-2xl transition-all ease-out"
-          >
-            S1
-          </Link>
+          {children}
         </div>
-        {children}
       </body>
     </html>
   );
