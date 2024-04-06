@@ -15,8 +15,8 @@ export default function Home() {
         </div>
       </div>
 
-      <main className="flex flex-col bg-gray-700 flex-1">
-        <div className="flex items-center h-12 px-3 font-ginto font-[500] text-white shadow-md">
+      <main className="flex flex-col items-center justify-center bg-gray-700 flex-1">
+        {/* <div className="flex items-center h-12 px-3 font-ginto font-[500] text-white shadow-md">
           Main
         </div>
         <div className="flex-1 p-3 overflow-y-scroll space-y-4">
@@ -27,7 +27,7 @@ export default function Home() {
               commodi quisquam hic.
             </p>
           ))}
-        </div>
+        </div> */}
       </main>
     </>
   );

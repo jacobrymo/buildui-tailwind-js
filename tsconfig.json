@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "app/ui/1-switch/page.js"  ],
   "exclude": [
     "node_modules"
   ]
