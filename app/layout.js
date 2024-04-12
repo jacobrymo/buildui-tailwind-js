@@ -11,7 +11,7 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
-const ginto = localfont({
+export const ginto = localfont({
   src: '../public/fonts/ginto/ABCGintoNormalVariable-Trial.ttf',
   variable: '--font-ginto',
 });

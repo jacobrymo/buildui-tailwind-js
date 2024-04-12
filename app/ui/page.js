@@ -1,4 +1,5 @@
-import SwitchDemo from './1-switch/page';
+import Switch from './1-switch/page';
+import RadioCard from './2-radio-cards/page';
 
 function Tile({ children }) {
   return (
@@ -22,10 +23,10 @@ export default function uiCollection() {
       <h1 className="text-3xl font-bold w-full">Radix playground</h1>
       <HStack>
         <Tile>
-          <SwitchDemo />
+          <Switch />
         </Tile>
         <Tile>
-          <SwitchDemo />
+          <RadioCard />
         </Tile>
       </HStack>
     </>

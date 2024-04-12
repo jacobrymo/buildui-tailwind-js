@@ -8,7 +8,7 @@ export const content = [
 export const theme = {
   extend: {
     fontFamily: {
-      ginto: ['var(--font-ginto)'],
+      // sans: ['var(--font-ginto)'],
     },
     colors: {
       brand: '#5865F2',
