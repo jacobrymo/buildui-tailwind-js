@@ -9,8 +9,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} antialiased`}>
-        <div className="flex min-h-[100vdh] w-screen text-gray-100">
-          {/* <div className="flex flex-col gap-2 bg-gray-900 p-3 overflow-y-scroll">
+        <main className="flex h-dvh w-full flex-col items-center overflow-y-scroll bg-black px-2 py-16 text-base text-white md:text-sm">
+          <section className="flex w-full max-w-[1024px] flex-col gap-8">
+            {children}
+          </section>
+        </main>
+        {/* <div className="flex min-h-[100vdh] w-screen text-gray-100">
+          <div className="flex flex-col gap-2 bg-gray-900 p-3 overflow-y-scroll">
             <Link
               href="/"
               className="bg-gray-700 text-gray-100 w-12 h-12 shrink-0 flex items-center justify-center rounded-3xl hover:bg-brand hover:text-white hover:rounded-2xl transition-all ease-out"
@@ -24,9 +29,9 @@ export default function RootLayout({ children }) {
             >
               S1
             </Link>
-          </div> */}
+          </div>
           {children}
-        </div>
+        </div> */}
       </body>
     </html>
   );
