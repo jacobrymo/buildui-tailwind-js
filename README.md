@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Yo. How did you end up here?
 
-## Getting Started
+This project was build with Next.js, RadixUI, Tailwind CSS, and React. All of the components were created following the BuildUI [Advanced Radix UI](https://buildui.com/courses/advanced-radix-ui) course. I wrote the components in jsx because what are types anywayz?
 
-First, run the development server:
+## TV shows my wife and I watched during the making of this project (no one asked)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I recommend you watch them too:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Bad Batch
+- Modern Family
+- Three Body Problem
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Why are you still reading? / What I learned building this
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+First and foremost, Radix absolutely rules. I have no business putting together components like this with my current knowledge of javascript and modern front-end.
 
-## Learn More
+Secondly, BuildUI absolutely rules. Sam's attention to detail rivals many designers I have worked with/for and his technical knowledge is just as high. Most importantly, Sam is a great teacher. The ability to teach is so rare, and it is more rare still to find someone with Sam's level of skill who can also teach. Signing up for BuildUI was money well spent.
 
-To learn more about Next.js, take a look at the following resources:
+Beyond that, here are some really basic things I took away from the course:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Basic knowledge of useState() in React
+- Basic knowledge to use Next.js app router
+- How to run my dev server so that I can access it on my phone
+- Clear understanding of position: relative and its relationship to position: absolute
+- A love for Tailwind
+- A disdain for Tailwind / a desire to try CVA next
+- How to use pointer events and how they're different from mouse events (definitely going to share this with my engineers!)
+- How easy it can be to recreate fundamental behaviors for dragging/slidering so that user have a polished experience regardless of surface or input method (mouse, keyboard, hands, etc.)
