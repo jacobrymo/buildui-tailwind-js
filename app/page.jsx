@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <>
       <VStack>
-        <span className="mx-4 text-sm font-bold text-gray-600">
+        <subtitle className="mx-4 text-sm font-bold text-gray-600">
           BuildUI & Radix{' '}
-        </span>
-        <h1 className="mx-4 text-3xl font-bold">Playground</h1>
+        </subtitle>
+        <h1 className="mx-4 mb-8 text-3xl font-bold">Playground</h1>
       </VStack>
       <VStack>
         <Tile>

@@ -16,7 +16,7 @@ const Toast = () => {
           ]);
         }}
       >
-        Toast me
+        This doesn&apos;t work yet
       </Button>
 
       <RadixToast.Provider>

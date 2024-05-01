@@ -19,10 +19,13 @@ Secondly, BuildUI absolutely rules. Sam's attention to detail rivals many design
 Beyond that, here are some really basic things I took away from the course:
 
 - Basic knowledge of useState() in React
-- Basic knowledge to use Next.js app router
+- Basic knowledge to use next.js app router
+- How to deploy a next.js project on Vercel
+- What arrow functions are (I am noob at this point in space-time)
 - How to run my dev server so that I can access it on my phone
-- Clear understanding of position: relative and its relationship to position: absolute
+- Clear understanding of `position: relative` and its relationship to `position: absolute`
+- How to format numbers easily with `new Intl.NumberFormat()`
 - A love for Tailwind
 - A disdain for Tailwind / a desire to try CVA next
 - How to use pointer events and how they're different from mouse events (definitely going to share this with my engineers!)
-- How easy it can be to recreate fundamental behaviors for dragging/slidering so that user have a polished experience regardless of surface or input method (mouse, keyboard, hands, etc.)
+- How easy it can be to recreate fundamental behaviors for dragging/slidering so that users have a polished experience regardless of surface or input (mouse, keyboard, hands, etc.)

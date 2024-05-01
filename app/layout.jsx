@@ -9,10 +9,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} antialiased`}>
-        <main className="flex h-dvh w-full flex-col items-center overflow-y-scroll bg-black px-2 py-16 text-base text-white md:text-sm">
-          <section className="flex w-full max-w-[1024px] flex-col gap-8">
-            {children}
-          </section>
+        <main className="min-h-screen bg-black px-2 py-16 text-base text-white md:text-sm">
+          <section className="mx-auto max-w-[1024px]">{children}</section>
         </main>
         {/* <div className="flex min-h-[100vdh] w-screen text-gray-100">
           <div className="flex flex-col gap-2 bg-gray-900 p-3 overflow-y-scroll">
