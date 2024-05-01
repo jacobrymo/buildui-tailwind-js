@@ -1,6 +1,6 @@
 ## Yo. How did you end up here?
 
-This project was build with Next.js, RadixUI, Tailwind CSS, and React. All of the components were created following the BuildUI [Advanced Radix UI](https://buildui.com/courses/advanced-radix-ui) course. I wrote the components in jsx because what are types anywayz?
+This project was built with Next.js, RadixUI, Tailwind CSS, and React. All of the components were created following the BuildUI [Advanced Radix UI](https://buildui.com/courses/advanced-radix-ui) course. I wrote the components in jsx because what are types anywayz?
 
 ## TV shows my wife and I watched during the making of this project (no one asked)
 
