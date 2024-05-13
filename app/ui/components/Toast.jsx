@@ -29,7 +29,7 @@ const Toast = () => {
           {toasts.map((toast) => (
             <RadixToast.Root
               key={toast.id}
-              className="flex items-center justify-between gap-4 rounded-xl bg-gray-400/20 py-2 pe-3 ps-4 backdrop-blur-lg"
+              className="flex items-center justify-between gap-4 rounded-xl bg-gray-600/60 py-2 pe-3 ps-4 backdrop-blur-lg focus-visible:outline focus-visible:outline-offset-4 focus-visible:outline-white"
               onOpenChange={() => {
                 setToasts(toasts.filter((t) => t.id !== toast.id));
               }}
@@ -53,7 +53,7 @@ const Toast = () => {
                 <RadixToast.Description className="text-wrap">
                   {toast.message}
                 </RadixToast.Description>
-                <RadixToast.Close className="grid size-12 transform place-items-center rounded-md hover:scale-[1.04] hover:bg-gray-600/20 hover:text-gray-200 md:size-8">
+                <RadixToast.Close className="grid size-12 transform place-items-center rounded-md hover:scale-[1.04] hover:bg-gray-600/20 hover:text-gray-200 focus-visible:outline focus-visible:outline-offset-4 focus-visible:outline-white md:size-8">
                   <XMarkIcon className="size-6 " />
                 </RadixToast.Close>
               </motion.li>
@@ -61,7 +61,7 @@ const Toast = () => {
           ))}
         </AnimatePresence>
 
-        <RadixToast.Viewport className="fixed bottom-4 left-0 right-0 z-10 flex w-screen flex-col items-center gap-2" />
+        <RadixToast.Viewport className="fixed bottom-0 left-0 right-0 z-10 flex w-screen flex-col items-center gap-2 rounded-xl focus-visible:outline focus-visible:outline-offset-4 focus-visible:outline-white" />
       </RadixToast.Provider>
     </>
   );
