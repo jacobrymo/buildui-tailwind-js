@@ -61,7 +61,7 @@ const Toast = () => {
           ))}
         </AnimatePresence>
 
-        <RadixToast.Viewport className="fixed bottom-0 left-0 right-0 z-10 flex w-screen flex-col items-center gap-2 rounded-xl focus-visible:outline focus-visible:outline-offset-4 focus-visible:outline-white" />
+        <RadixToast.Viewport className="fixed bottom-4 left-0 right-0 z-10 flex w-screen flex-col items-center gap-1 rounded-xl focus-visible:outline focus-visible:outline-offset-4 focus-visible:outline-white" />
       </RadixToast.Provider>
     </>
   );
